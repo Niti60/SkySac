@@ -2,8 +2,6 @@ body{
     background-color:  #081b29;
 }
 .home-content{
-    /* height: 100vh;
-    width: 100vw;  */
     text-align: center;
 }
 .home-content h1{
@@ -61,12 +59,11 @@ text-align: center;
     color: #e8e8e8;
     background-color: aqua;
    }
-   
    .btn:hover::before {
     width: 100%;
    }
 @media (min-width: 1024px) {
-    .servic {
+    .servic{
         display: flex;
         justify-content: space-evenly;
     }
